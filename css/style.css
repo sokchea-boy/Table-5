@@ -1,0 +1,59 @@
+
+*{
+    padding: 10px;
+}
+.table{
+    /* text-align: center; */
+    background: #fff;
+    width: 85%;
+    margin: 0 auto;
+    overflow:hidden;
+    border-collapse: collapse;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 4px 8px rgb(224, 222, 222) 
+    
+}
+th{
+    background: rgb(109, 204, 109);
+    padding: 10px;
+    text-align: left;
+}
+td{
+    padding: 10px;
+}
+tr{
+    border: 1px solid rgb(233, 231, 231);
+}
+.action-btn-delete-btn{
+    padding: 3px;
+    border-radius: 5px;
+    border: none;
+    background: red;
+    color: #fff;
+    font-size: 15px;
+    width: 100px;
+    text-align: left;
+}
+.action-btn-edit-btn{
+    padding: 3px;
+    border-radius: 5px;
+    border: none;
+    background: rgb(83, 185, 216);
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+    width: 80px;
+    text-align: left;
+}
+.action-btn-view-btn{
+    padding: 3px;
+    border-radius: 5px;
+    border: none;
+    background:orange;
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+    width: 150px;
+    text-align: left;
+}
